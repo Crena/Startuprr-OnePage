@@ -1,0 +1,165 @@
+body {
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url("../font/raleway/Raleway-Regular.ttf");
+}
+
+.home {
+    width: 100%;
+    height: auto;
+    float: left;
+    background-image: url("../images/cover.png");
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.home-text {
+    float: left;
+    clear: left;
+    margin-top: 220px;
+}
+
+.home-text h4 {
+    font-size: 18px;
+    font-family: "Raleway";
+    color: rgb(56, 56, 56);
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+
+.home-text h1 {
+    font-size: 64px;
+    font-family: "Raleway";
+    color: rgb(56, 56, 56);
+    text-transform: uppercase;
+    margin: 0;
+    padding: 2px;
+}
+
+.home-text h3 {
+    font-size: 17px;
+    font-family: "Raleway";
+    color: #e4e4e4;
+    border-radius: 4px;
+    background-color: rgb(51, 51, 51);
+    width: 622px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
+}
+
+.start-doing {
+    float: left;
+    clear: left;
+}
+
+.start-doing h3 {
+    font-size: 26px;
+    font-family: "Raleway";
+    color: rgb(56, 56, 56);
+    text-transform: uppercase;
+    line-height: 0.769;
+    margin: 0;
+    float: left;
+    padding-top: 55px;
+}
+
+.start-doing ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: -8px;
+}
+
+.start-doing-left {
+    float: left;
+    margin: 0;
+}
+
+.start-doing-left ul {
+    float: left;
+    margin: 0;
+    padding-top: 55px;
+    padding-left: 12px;
+    padding-right: 17px;
+}
+
+.left-img {
+    float: left;
+    padding-top: 61px;
+}
+
+.start-doing-right {
+    float: left;
+}
+
+.start-doing-right ul {
+    float: left;
+    margin: 0;
+    padding-top: 55px;
+    padding-left: 12px;
+}
+
+.right-img {
+    padding-top: 61px;
+    padding-left: 18px;
+
+}
+
+.scroll-icon {
+    float: left;
+    clear: left;
+    padding-left: 280px;
+    padding-bottom: 220px;
+    padding-top: 55px;
+}
+
+.logo {
+    float: left;
+    padding-top: 33px;
+}
+
+.menu {
+    float: right;
+    clear: right;
+    font-size: 14px;
+    font-family: "Raleway";
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+    padding-top: 30px;
+
+}
+
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 12px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #606060;
+}
+
+.menu ul li a:hover {
+
+    width: 103px;
+    border-radius: 4px;
+    background-color: #00a99d;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+header {
+    border-bottom: 1px solid #dedede;
+    float: left;
+    width: 100%;
+    padding-bottom: 20px;
+}
