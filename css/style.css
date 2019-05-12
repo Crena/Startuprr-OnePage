@@ -43,7 +43,7 @@ body {
     padding: 2px;
 }
 
-.home-text h3 {
+.home-text-h3 {
     font-size: 17px;
     font-family: "Raleway";
     color: #e4e4e4;
@@ -162,4 +162,138 @@ header {
     float: left;
     width: 100%;
     padding-bottom: 20px;
+}
+
+.title {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.green-color {
+    color: #00a99d;
+}
+
+.title h3 {
+    font-size: 26px;
+    font-family: "Raleway";
+    color: rgb(56, 56, 56);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.769;
+    text-align: center;
+    display: inline-block;
+    margin-top: 33px;
+    position: relative;
+    max-width: 20%;
+}
+
+.title h3:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url(../images/left-shape.png);
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 15px;
+    left: -38px;
+}
+
+.title h3:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url(../images/right-shape.png);
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 15px;
+    right: -38px;
+    top: 2px;
+}
+
+.left-line {
+    display: block;
+    float: left;
+    background-image: url(../images/left-line.png);
+    background-repeat: no-repeat;
+    height: 13px;
+    display: inline-block;
+    margin-top: 38px;
+    width: 33%;
+    background-size: 100% auto;
+    margin-right: 40px;
+    box-sizing: border-box;
+}
+
+.right-line {
+    background-image: url(../images/right-line.png);
+    background-repeat: no-repeat;
+    height: 13px;
+    display: inline-block;
+    width: 33%;
+    margin-left: 30px;
+    float: right;
+    margin-top: 40px;
+}
+
+.title-p {
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(138, 138, 138);
+    line-height: 1;
+    text-align: center;
+    margin: 0;
+}
+
+.we-offer {
+    float: left;
+    display: inline;
+    padding-top: 45px;
+}
+
+.we-offer h3 {
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgb(96, 96, 96);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.we-offer p {
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgb(122, 122, 122);
+    line-height: 1.714;
+    text-align: center;
+}
+
+.offers {
+    float: left;
+    padding: 0 13px;
+}
+
+.offers img {
+    text-align: center;
+    padding-left: 135px;
+}
+
+.offers h5 {
+    font-size: 10px;
+    font-family: "Raleway";
+    color: #8a8a8a;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 80px;
+    margin-left: 141px;
+    padding: 10px;
+}
+
+.offers h5:hover {
+    border-radius: 4px;
+    background-color: #00a99d;
+    color: #ffffff;
+    width: 80px;
+    box-sizing: border-box;
+    padding: 10px;
 }
