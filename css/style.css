@@ -12,6 +12,7 @@ body {
     height: auto;
     float: left;
     background-image: url("../images/cover.png");
+   
 }
 
 .container {
@@ -164,6 +165,11 @@ header {
     padding-bottom: 20px;
 }
 
+.what-we-offer {
+    float: left;
+    width: 100%;
+}
+
 .title {
     width: 100%;
     display: inline-block;
@@ -185,7 +191,7 @@ header {
     display: inline-block;
     margin-top: 33px;
     position: relative;
-    max-width: 20%;
+    max-width: 25%;
 }
 
 .title h3:before {
@@ -297,3 +303,65 @@ header {
     box-sizing: border-box;
     padding: 10px;
 }
+
+.key {
+    position: relative;
+    z-index: 1;
+    top: 30px;
+    left: 550px;
+}
+
+.features {
+    background-color: #383838;
+    float: left;
+    width: 100%;
+    padding-top: 41px;
+}
+
+.white {
+
+    color: #e4e4e4;
+}
+
+.landscape {
+    background-image: url(../images/iPad-Air-Silver1.png);
+        width: 480px;
+    height: 325px;
+    position: relative;
+    z-index: 2;
+    left: 531px;
+    top: 167px;
+}
+
+.landscape img {
+    box-sizing: border-box;
+    padding-left: 55px;
+    padding-top: 20px;
+
+}
+
+.portant {
+    background-image: url(../images/iPad-Air-Silver.png);
+       width: 339px;
+    height: 450px;
+    position: relative;
+    z-index: 1;
+  	float: right;
+    left: 0px;
+    top: 53px;
+}
+.portant img {
+    box-sizing: border-box;
+    padding-left: 33px;
+    padding-top: 28px;
+
+
+}
+.more-features{
+	float: left;
+    background-color: white;
+    width: 100%;
+    position: relative;
+    z-index: 4;
+}
+
