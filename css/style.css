@@ -174,6 +174,9 @@ header {
 
 .green-color {
     color: #00a99d;
+    text-transform: uppercase;
+    font-family: "Raleway";
+
 }
 
 .title h3 {
@@ -465,14 +468,6 @@ header {
     z-index: 6;
 }
 
-.sampel-works {
-    float: left;
-    clear: left;
-    width: 100%;
-    padding-top: 15px;
-    padding-bottom: 45px;
-}
-
 .circle-item {
     padding: 40px 40px 30px 0;
 }
@@ -500,10 +495,18 @@ header {
     padding-left: 14px;
 }
 
+.sample-works {
+    float: left;
+    clear: left;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+
 .works-img {
     margin: 0 auto;
     padding-top: 50px;
-    width: 1920px;
+    width: 100%;
 }
 
 .works-img ul {
@@ -512,13 +515,36 @@ header {
 }
 
 .works-img ul li {
-    display: inline;
+    position: relative;
     text-decoration: none;
-    max-width: 100%;
+    width: 16.6%;
+    float: left;
+    display: block;
 }
 
 .works-img ul li img {
     max-width: 100%;
+    border-radius: 6px;
+}
+
+.hidden-field {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #25e3d58f;
+    display: none;
+}
+
+.works-img li:hover .hidden-field {
+    display: block;
+    color: white;
+}
+
+.view-all {
+    float: left;
+    width: 100%;
 }
 
 .view-all h4 {
@@ -555,4 +581,292 @@ header {
     top: -25px;
     left: 50%;
     z-index: 6;
+}
+
+.fact {
+    float: left;
+    padding: 60px 0;
+}
+
+.fact-item {
+    float: left;
+    padding: 0 58px 0 96px;
+}
+
+.fact-item h3 {
+    font-size: 80px;
+    font-family: "Raleway";
+    color: rgb(228, 228, 228);
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding-bottom: 13px;
+}
+
+.fact-item h3:before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/shape_img-1.png);
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 13px;
+    top: 44px;
+    left: -28px;
+}
+
+.fact-item h3:after {
+    content: "";
+    position: absolute;
+    background-image: url(../images/shape_img-1.png);
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 13px;
+    top: 44px;
+    right: -25px;
+}
+
+.line-img {
+    position: relative;
+    text-align: center;
+}
+
+.line-img:before {
+    content: "";
+    position: absolute;
+    background-color: #606060;
+    width: 96px;
+    height: 1px;
+    right: 96px;
+    top: 9px;
+}
+
+.line-img:after {
+    content: "";
+    position: absolute;
+    background-color: #606060;
+    width: 95px;
+    height: 1px;
+    left: 92px;
+    top: 9px;
+}
+
+.fact h2 {
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgb(96, 96, 96);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+}
+
+.contact-us {
+    width: 100%;
+    float: left;
+    background-color: #00a99d;
+}
+
+.contact-us h2 {
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(228, 228, 228);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    float: left;
+    padding-top: 12px;
+}
+
+.contact-us-button {
+    float: right;
+    padding-left: 2px;
+}
+
+.contact-us-button h1 {
+    display: inline-block;
+    font-size: 13px;
+    font-family: "Raleway";
+    color: rgb(96, 96, 96);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    border-radius: 4px;
+    background-color: rgb(228, 228, 228);
+    width: 150px;
+    box-sizing: border-box;
+    padding: 16px 0;
+}
+
+.team {
+    width: 100%;
+    float: left;
+    padding-top: 32px;
+}
+
+.team-member {
+    float: left;
+    padding: 60px 0;
+}
+
+.members {
+    float: left;
+    padding-right: 20px;
+}
+
+.members-info {
+    border: 1px solid #dedede;
+    position: relative;
+    top: -5px;
+}
+
+.name {
+    font-size: 13px;
+    font-family: "Raleway";
+    color: rgb(228, 228, 228);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    border-radius: 4px;
+    background-color: rgb(0, 169, 157);
+    width: 136px;
+    height: 40px;
+    z-index: 9;
+    top: -23px;
+    left: 62px;
+    margin: 0;
+    box-sizing: border-box;
+    padding-top: 11px;
+}
+
+.ceo {
+    font-size: 12px;
+    font-family: "Raleway";
+    color: rgb(96, 96, 96);
+    line-height: 1.833;
+    text-align: center;
+    border-bottom: 1px solid #eae5e5;
+    width: 50%;
+    position: relative;
+    left: 63px;
+    margin: 0;
+}
+
+.email {
+    font-size: 16px;
+    font-family: "Raleway";
+    line-height: 2;
+    text-align: center;
+    position: relative;
+}
+
+.email a {
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+}
+
+.email:before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/msg.png);
+    width: 17px;
+    height: 14px;
+    left: 15px;
+    bottom: 8px;
+}
+
+.number {
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(170, 170, 170);
+    line-height: 2;
+    text-align: center;
+    position: relative;
+    margin: 0;
+}
+
+.number:before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/phone.png);
+    width: 16px;
+    height: 14px;
+    left: 30px;
+    bottom: 9px;
+}
+
+.quotes {
+    float: left;
+    clear: left;
+    background-color: #00a99d;
+    width: 100%;
+    position: relative;
+}
+
+.quotes:before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/quotes.png);
+    width: 55px;
+    height: 55px;
+    left: 50%;
+    top: -25px;
+}
+
+.quotes-button {
+	float: left;
+	clear: left;
+    border-radius: 4px;
+    background-color: rgb(228, 228, 228);
+    width: 247px;
+    height: 40px;
+    font-size: 13px;
+    font-family: "Raleway";
+    color: #c5c5c5;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    left: 40%;
+    top: 50px;
+    box-sizing: border-box;
+    padding-top: 12px;
+}
+
+.quotes-text {
+    font-size: 20px;
+    font-family: "Raleway";
+    color: rgb(228, 228, 228);
+    line-height: 1.7;
+    text-align: center;
+    float: left;
+    padding: 40px 0;
+
+}
+.quotes-img {
+	float: left;
+    clear: left;
+    position: relative;
+    left: 50%; 
+    padding-bottom: 50px;
+
+}
+.clients {
+	width: 100%;
+	background-color:#383838;
+	float: left;
+}
+.clients-work{
+	float: left;
+	display: inline-block;
+
+}
+.clients-work ul li {
+	display: inline-block;
+	list-style: none;
+	
+}
+.clients-work{
+	
 }
