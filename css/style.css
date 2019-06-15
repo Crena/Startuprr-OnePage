@@ -816,8 +816,8 @@ header {
 }
 
 .quotes-button {
-	float: left;
-	clear: left;
+    float: left;
+    clear: left;
     border-radius: 4px;
     background-color: rgb(228, 228, 228);
     width: 247px;
@@ -842,31 +842,51 @@ header {
     text-align: center;
     float: left;
     padding: 40px 0;
-
 }
+
 .quotes-img {
-	float: left;
+    float: left;
     clear: left;
     position: relative;
-    left: 50%; 
+    left: 50%;
     padding-bottom: 50px;
-
 }
+
 .clients {
-	width: 100%;
-	background-color:#383838;
-	float: left;
+    width: 100%;
+    background-color: #383838;
+    float: left;
+    position: relative;
 }
-.clients-work{
-	float: left;
-	display: inline-block;
+.clients:before {
+	content: "";
+	position: absolute;
+	background-image: url("../images/quotes-left.png");
+	width: 30px;
+	height: 30px;
+	top: 50%;
+	left: 15%;
 
 }
+.clients:after {
+	content: "";
+	position: absolute;
+	background-image: url("../images/right-arrows.png");
+	width: 30px;
+	height: 30px;
+	top: 50%;
+	right: 15%;
+	
+}
+.clients-work {
+    float: left;
+    display: inline-block;
+    padding: 45px 0px;
+}
+
 .clients-work ul li {
-	display: inline-block;
-	list-style: none;
-	
+    display: inline-block;
+    list-style: none;
+    padding-left: 9px;
 }
-.clients-work{
-	
-}
+
